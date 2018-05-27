@@ -1,0 +1,17 @@
+{
+  "name": "salesforce",
+  "version": "0.0.0",
+  "description": "Description for salesforce",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster-spring-social-connectors": "0.0.1",
+    "generator-jhipster": "4.14.4"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  }
+}
