@@ -348,7 +348,19 @@
             <scope>test</scope>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-salesforce</artifactId>
+            <version>1.2.0.1.RELEASE</version>
+        </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
 
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
