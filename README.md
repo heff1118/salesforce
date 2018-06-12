@@ -38,19 +38,7 @@ To launch your application's tests, run:
 For more information, refer to the [Running tests page][].
 
 
-For more information refer to [Using Docker and Docker-Compose][], this page also contains information on the docker-compose sub-generator (`jhipster docker-compose`), which is able to generate docker configurations for one or several JHipster applications.
-
-## Continuous Integration (optional)
-
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
-
-[JHipster Homepage and latest documentation]: http://www.jhipster.tech
-[JHipster 4.14.4 archive]: http://www.jhipster.tech/documentation-archive/v4.14.4
-[Doing microservices with JHipster]: http://www.jhipster.tech/documentation-archive/v4.14.4/microservices-architecture/
-[Using JHipster in development]: http://www.jhipster.tech/documentation-archive/v4.14.4/development/
-[Using Docker and Docker-Compose]: http://www.jhipster.tech/documentation-archive/v4.14.4/docker-compose
-[Using JHipster in production]: http://www.jhipster.tech/documentation-archive/v4.14.4/production/
-[Running tests page]: http://www.jhipster.tech/documentation-archive/v4.14.4/running-tests/
+[Swagger UI]: http://localhost:8082/swagger-ui.html
 [Setting up Continuous Integration]: http://www.jhipster.tech/documentation-archive/v4.14.4/setting-up-ci/
 
 
