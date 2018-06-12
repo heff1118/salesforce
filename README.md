@@ -35,8 +35,8 @@ To launch your application's tests, run:
 
     ./mvnw clean test
 
-For more information, refer to the [Running tests page][].
 
+Swagger Docs [Swagger UI]
 
 [Swagger UI]: http://localhost:8082/swagger-ui.html
 [Setting up Continuous Integration]: http://www.jhipster.tech/documentation-archive/v4.14.4/setting-up-ci/
