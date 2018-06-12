@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Test class for the ProfileInfoResource REST controller.
  *
- * @see ProfileInfoResource
+ * @see DumbyController
  **/
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SalesforceApp.class)
@@ -48,9 +48,9 @@ public class ProfileInfoResourceIntTest {
         when(environment.getDefaultProfiles()).thenReturn(activeProfiles);
         when(environment.getActiveProfiles()).thenReturn(activeProfiles);
 
-        ProfileInfoResource profileInfoResource = new ProfileInfoResource(environment, jHipsterProperties);
+        DumbyController dumbyController = new DumbyController();
         this.restProfileMockMvc = MockMvcBuilders
-            .standaloneSetup(profileInfoResource)
+            .standaloneSetup(dumbyController)
             .build();
     }
 
