@@ -3,7 +3,7 @@ This application was generated using JHipster 4.14.4, you can find documentation
 
 This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
 
-This application is configured for Service Discovery and Configuration with . On launch, it will refuse to start if it is not able to connect to .
+This application is configured for S f f rvice Discovery and Configuration with . On launch, it will refuse to start if it is not able to connect to .
 
 ## Development
 
